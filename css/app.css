@@ -1,10 +1,10 @@
 /* 1. Base : rien de visuel, juste les fondations */
 
-@import url(base/reset.css);
-@import url(base/variable.css);
+@import url("base/reset.css");
+@import url("base/variable.css");
 
 /* 2. Layout : la structure globale (grille, header, hero) */
-@import url(layout/grid.css);
+@import url("layout/grid.css");
 @import url("layout/header.css");
 @import url("layout/hero.css");
 
