@@ -13,4 +13,4 @@
 @import url("components/button.css");
 
 /* 4. Utilities : TOUJOURS en dernier, pour pouvoir tout surcharger */
-@import "utilities/utilities.css";
+@import url("utilities/utilities.css");
