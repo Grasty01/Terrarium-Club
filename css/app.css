@@ -1,0 +1,16 @@
+/* 1. Base : rien de visuel, juste les fondations */
+
+@import url(base/reset.css);
+@import url(base/variable.css);
+
+/* 2. Layout : la structure globale (grille, header, hero) */
+@import url(layout/grid.css);
+@import url("layout/header.css");
+@import url("layout/hero.css");
+
+/* 3. Composants : les éléments réutilisables */
+@import url("components/card.css");
+@import url("components/button.css");
+
+/* 4. Utilities : TOUJOURS en dernier, pour pouvoir tout surcharger */
+@import "utilities/utilities.css";
