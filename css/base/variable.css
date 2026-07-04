@@ -1,4 +1,61 @@
 :root {
-  /* Variable pour la famille de police */
-  --font-main: "Arial", sans-serif;
+  /* La famille de police */
+  --font-heading: "Fraunces", system-ui, sans-serif;
+  --font-body: "Nunito Sans" system-ui, sans-serif;
+
+  /* Les couleurs */
+  --clr-main: #1b2e1f;
+  --clr-light-card: #f4f1e8;
+  --clr-dark-card: #20351f;
+  --clr-border: #2a3e2c;
+  --clr-main-focus: #c6d94d;
+  --clr-terracotta: #8a5a3b;
+  --clr-plant-green: #639922;
+  --clr-alert-urgent: #d4a24c;
+
+  /* Les boutons */
+  --btn-pd: 10px 20px;
+  --btn-bd-radius: border-radius: 22px;
+  --btn-ft-size: 12px;
+  --btn-ft-weight: 600;
+  --btn-bg-color: #c6d94d;
+  --btn-txt-color: #2b3a1f;
+
+  /* Header */
+  --header-height: 60px;
+  --header-pd-inline: 40px;
+  --header-nav-gap: 28px;
+  --header-bb: 1px solid #2a3e2c;
+
+  /* Card */
+  --card-p: 22px 18px;
+  --card-br: 18px;
+  --card-gap-sm: 4px;
+  --card-w: 190px;
+  --bento-gap: 12px;
+  --bento-row: 90px;
+  --tile-p: 16px;
+  --tile-r: 16px;
+  --t-wide: span 2;
+  --t-hero: span 2 / span 2;
+
+  /* Typographie */
+  --fs-hero: 30px; /* H1 de la section Hero */
+  --fs-dash: 18px; /* H1 du Dashboard */
+  --fs-card: 15px; /* H2 des cartes bento */
+
+  /* Textes de contenu */
+  --fs-body: 13px; /* Corps de texte principal */
+  --fs-label: 11px; /* Label, formulaires ou petits badges */
+  --fs-kicker: 11px; /* Kicker (le sur-titre / chapeau de 10-11px) */
+
+  /* Echele d'espacement */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 20px;
+  --space-2xl: 24px;
+  --space-3xl: 40px;
+  --space-4xl: 48px;
 }

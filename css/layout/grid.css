@@ -2,22 +2,8 @@
   display: grid;
 }
 
-.col-span-1 {
-  grid-column: span 1;
-}
-
-.col-span-2 {
-  grid-column: span 2;
-}
-
-.col-span-3 {
-  grid-column: span 3;
-}
-
-.col-span-4 {
-  grid-column: span 4;
-}
-
-.col-span-12 {
-  grid-column: span 12;
+main {
+  max-width: 1200px; /* La largeur max du contenu Main */
+  margin-inline: auto;
+  padding-inline: 24px; /* Le "gutter" ou marge de sécurité sur les bords */
 }
